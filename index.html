@@ -562,14 +562,37 @@
 
         <form class="formulario-contacto">
 
-            <div class="campo">
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre" required>
+            <div class="fila-campos">
+
+                <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="campo">
+                    <label for="celular">Celular</label>
+                    <input type="tel" id="celular" name="celular" placeholder="+569XXXXXXXX" required>
+                </div>
+
             </div>
 
             <div class="campo">
                 <label for="email">Correo electrónico</label>
                 <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="fila-campos">
+
+                <div class="campo">
+                    <label for="checkin">Check-in</label>
+                    <input type="date" id="checkin" name="checkin" required>
+                </div>
+
+                <div class="campo">
+                    <label for="checkout">Check-out</label>
+                    <input type="date" id="checkout" name="checkout" required>
+                </div>
+
             </div>
 
             <div class="campo">
@@ -578,7 +601,7 @@
             </div>
 
             <button type="submit" class="btn-principal">
-                Enviar Mensaje
+                Enviar Consulta
             </button>
 
         </form>

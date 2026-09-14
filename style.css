@@ -421,6 +421,12 @@ a.feature:hover {
     margin: 0 auto 24px;
 }
 
+.fila-campos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+}
+
 .campo {
     text-align: left;
     margin-bottom: 16px;
